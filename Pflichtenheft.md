@@ -5,7 +5,7 @@
 
 Community-Plattform für Computerspiele
 
-### Navigationsleiste
+#### Navigationsleiste
 Die Navigationsleiste ist allen anderen Funktionen übergeordnet, wird oben auf jeder Seite angezeigt. Sie wird also über jedem Objekt dargestellt.
 Sie beinhaltet die wichtigsten Verweise. Ein Verweis auf die Registrierung, Anmeldung oder Abmeldung.
 Ihr Inhalt der Navigationsleiste lautet wie folgt:
@@ -30,7 +30,7 @@ Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort get
 #### Mockups  Anmeldung
 <img src="./images/Login_Web.png" id="img_login_web" width="300"> <img src="./images/Login_Desktop.png" id="img_login_desk" width="350"> <img src="./images/Login_Mobile.png" id="img_login_mobil" width="110">
 
-### User-Story: Registrierung und Anmeldung
+#### User-Story: Registrierung und Anmeldung
 In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem
 Benutzernamen/Email und Passwort regestrieren und einloggen können.
 Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort angegeben werden.
@@ -44,8 +44,12 @@ Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort ang
 | Als Benutzer | mein Benutzernamen "nachfragen" können   | ich mein "verlorenen" Benutzernamen und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Benutzernamen-vergessen" Button kann man mit Hilfe der Email-Adresse den Benutzernamen an die angegebene Email senden; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL      |
 | Als Benutzer | meine persönlichen Daten wie z.B. Adresse, Stadt etc. bei der Registrierung angeben | man mich einfacher identifizieren kann   | Bei der Registrierung gibt es Textfelder zu persönlichen Daten wie z.B. Adresse, Stadt etc. die ausgefüllt werden können und im Profil ersichtlich sind | KANN      |
 
-### Usecase: Registrierung und Anmeldung
+#### Usecase: Registrierung und Anmeldung
 <img src="./images/Registrierung und Anmeldung - Usecase.png" width="1000">
+
+#### Aktivitätsdiagramme Registrierung und Anmeldung
+<img src="./images/Aktivitätsdiagramme/AktivitätsDiaReg.png" width="400">
+<img src="./images/Aktivitätsdiagramme/AktivitätsDiaAnm.png" width="400">
 
 ### Spielebibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
@@ -71,6 +75,9 @@ eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen
 <img src="./images/usecase_spielebibliothek.png" width="1000">
 <br>
 
+#### Aktivitätsdiagramm Spiel anzeigen
+<img src="./images/Aktivitätsdiagramme/AktivitätsDiaSpiel.png" width="400">
+
 ### Bewertungsfunktion
 Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt. Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt. Allerdings kann jedes Spiel nur einmal pro Benutzer bewertet werden. Jeder Benutzer kann zu seiner Bewertung von einem bis zu fünf Sternen einen kleinen Text verfassen, indem er seine Meinung zum entsprechenden Spiel schreibt. Andere Benutzer sehen bei jedem Spiel, die Bewertungen jener Benutzer, die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch oder runter ebenfalls bewerten.  Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach unten negativ.
 
@@ -89,7 +96,7 @@ Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezei
 
 #### Use-Case-Diagramm
 <br>
-<img src="./images/UseCaseBewertung_Bearbeitet.png" width="1000">
+<img src="./images/UseCase_Bewertungsfunktion.png" width="1000">
 <br>
 
 ### Gruppen
@@ -143,6 +150,10 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 <img src="./images/usecase/Gruppen_Usecase.png" width="800">
 <br>
 
+#### Aktivitätsdiagramme
+
+<img src="./images/Aktivitätsdiagramme/akt_grp_admin.png" width="400"><img src="./images/Aktivitätsdiagramme/akt_grp_einladung.png" width="217"><img src="./images/Aktivitätsdiagramme/akt_grp_erstellen.png" width="231">
+
 ### Chaträume
 Es wird zwischen Privatchat-, Gruppenchat- und öffentlichen Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann die Textnachricht, getrennt mit einem ":", angezeigt.
 Man kann Privatchats über einen Doppelklick auf den jeweiligen Kontakt öffnen. Öffentliche Chaträume können erstellt und mit Passwörtern versehen werden. Jeder öffentlicher Chatraum muss einen einzigartigen Namen haben. Es steht eine Liste mit aktiven in den Chat beigetretenen Benutzern zur Verfügung. Über diese Liste können Benutzer zu den Kontakten hinzugefügt werden. Benutzer können Stumm geschaltet werden.
@@ -179,21 +190,21 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 <img src="./images/Freundesliste_Desktop.png" id="img_friends_desk" width="200"><img src="./images/Freundesliste_Browser.png" id="img_friends_web" width="360"><img src="./images/Freundesliste_Mobile.png" id="img_friends_mobil" width="160">
 
 #### User-Stories
-| Rolle                | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
-| -------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
-| Als Benutzer         | Freunde meiner Freundesiste hinzufügen,  | ich sie in meiner Freundesliste sehen kann. | Auftauchen des hinzugefügten Benutzers in der Freundesliste. | MUSS      |
-| Als Benutzer         | Freunde von meiner Freundesliste entfernen, | sie nicht mehr in der Freundesliste sind. | Freund ist nicht mehr in der Freundesliste | MUSS      |
-| Als Benutzer         | einen Status haben und den von anderen Benutzern sehen, | ich sehen ob ein Benutzer erreichbar ist/ich zeigen kann ob ich erreichbar bin. | Sichtbarer Status.                       | MUSS      |
-| Als Benutzer         | Statis in verschiedenen Farben sehen,    | ich sie besser unterscheiden kann.       | Verschiedenfarbige Statis.               | SOLL      |
-| Als Benutzer         | die aktuelle Aktivität(beigetretener Chatraum, gestartetes Spiel) anderer Benutzer sehen, | andere Benutzer daran teilhaben können.  | Aktivitäten werden angezeigt.            | SOLL      |
-| Als Benutzer         | einen Privatchat mit Freunden öffnen können, | ich mich mit ihnen unterhalten kann.     | Funktionierender Privatchat              | MUSS      |
-| Als Benutzer         | Gruppen erstellen können,                | ich mich mit anderen Freunden in einer Gruppe zusammenschließen kann. | Gruppen können erstellt werden.          | MUSS      |
-| Als Gruppenersteller | Gruppen löschen können,                  | inaktive Gruppen entfernt werden können. | Gruppen können entfernt werden.          | MUSS      |
-| Als Benutzer         | Freunde in eine Gruppe einladen können,  | ich in der selben Gruppe mit ihnen bin.  | Gruppeneinladngen müssen funktionieren   | MUSS      |
+| Rolle        | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
+| ------------ | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
+| Als Benutzer | Freunde meiner Freundesiste hinzufügen,  | ich sie in meiner Freundesliste sehen kann. | Auftauchen des hinzugefügten Benutzers in der Freundesliste. | MUSS      |
+| Als Benutzer | Freunde von meiner Freundesliste entfernen, | sie nicht mehr in der Freundesliste sind. | Freund ist nicht mehr in der Freundesliste | MUSS      |
+| Als Benutzer | einen Status haben und den von anderen Benutzern sehen, | ich sehen ob ein Benutzer erreichbar ist/ich zeigen kann ob ich erreichbar bin. | Sichtbarer Status.                       | MUSS      |
+| Als Benutzer | Statis in verschiedenen Farben sehen,    | ich sie besser unterscheiden kann.       | Verschiedenfarbige Statis.               | SOLL      |
+| Als Benutzer | die aktuelle Aktivität(beigetretener Chatraum, gestartetes Spiel) anderer Benutzer sehen, | andere Benutzer daran teilhaben können.  | Aktivitäten werden angezeigt.            | SOLL      |
+| Als Benutzer | einen Privatchat mit Freunden öffnen können, | ich mich mit ihnen unterhalten kann.     | Funktionierender Privatchat              | MUSS      |
+| Als Benutzer | Gruppierungen erstellen können,          | ich eine bessere Übersicht über meine Freunde habe. | Gruppierungen können erstellt werden.    | MUSS      |
+| Als Benutzer | Gruppierungen entfernen können,          | nicht verwendete Gruppierungen gelöscht werden können. | Gruppierungen können entfernt werden.    | MUSS      |
+| Als Benutzer | Freunde einer Gruppierung hinzufügen,    | ich neue Freunde gruppieren kann.        | Freunde können einer Gruppierung hinzugefügt werden | MUSS      |
 
 #### Use-Case-Diagramm
 <br>
-<img src="./images/usecase_freundesliste.png" width="1000">
+<img src="./images/UseCase/usecase_freundesliste.png" width="1000">
 <br>
 
 ### Terminplaner
@@ -222,7 +233,11 @@ Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und
 
 #### Use-Case
 
-<img src="./images/UseCase/usecaseTerminplaner.png" width="700">
+<img src="./images/UseCase/usecaseTerminplaner.png" width="800">
+
+#### Aktivitätsdiagramm 
+
+<img src="./images/Aktivitätsdiagramme/terminErstellen.png" width="800">
 
 ### Notizen
 Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er außerdem mit anderen Benutzern oder Gruppen teilen. Die Notizen können dadurch angeguckt oder von anderen bearbeitet werden. Der Notizenersteller, kann aber auch festlegen, wer diese Notiz bearbeiten darf. Die Notizen können dann auch den Benutzer oder die Benutzergruppe über festgelegte Zeit benachrichtigen.<br>
@@ -245,6 +260,11 @@ Zur besseren Übersicht der Notiz werden die Beiträge eines Mitgliedes in einer
 #### Use-Case-Diagramm
 <br>
 <img src="./images/UseCase/Use-Case-Notizen.png" width="1000">
+<br>
+
+#### Aktivitätsdiagramm
+<br>
+<img src="./images/Aktivitätsdiagramme/Notizen-Aktivität.png" width="1000">
 <br>
 
 ### Frontend
@@ -409,7 +429,7 @@ Kalender, der Termine für sämtliche Veranstaltungen und Ereignisse enthält. D
   - Privat: [Web](#img_chat_public_web), [Desktop](#img_chat_public_desk), [Mobil](#img_chat_public_mobil)
 - Freundesliste: [Web](#img_friends_web), [Desktop](#img_friends_desk), [Mobil](#img_friends_mobil)
 - Gruppen
-  - Profil: [Web](#img_group_profil_web), [Desktop](#img_group_profil_desk), [Mobil](#img_group_profil_mobil)
+  - Profil: [Web](#img_group_prof_web), [Desktop](#img_group_prof_desk), [Mobil](#img_group_prof_mobil)
   - Forum:  [Web](#img_group_forum_web), [Desktop](#img_group_forum_desk), [Mobil](#img_group_forum_mobil)
   - Mitglieder:  [Web](#img_group_members_web), [Desktop](#img_group_members_desk), [Mobil](#img_group_members_mobil)
   - Admin:  [Web](#img_group_admin_web), [Desktop](#img_group_admin_desk), [Mobil](#img_group_admin_mobil)
