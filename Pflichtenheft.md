@@ -1,4 +1,4 @@
-﻿## Pflichtenheft
+## Pflichtenheft
 
 
 ### Allgemeine Beschreibung des Projekts
@@ -15,20 +15,20 @@ Ihr Inhalt der Navigationsleiste lautet wie folgt:
 * Gruppen/Freunde (Community)
 * Registrierung und Anmeldung oder Abmeldung
 #### Mockups Navigationsleiste
-<img src="./images/Navigation.png" id="img_nav_webdesk" width="400"><img src="./images/Navigation_Mobile.png" id="img_nav_mobil" width="400">
+<img src="./images/Mockups/Navigation.png" id="img_nav_webdesk" width="400"><img src="./images/Mockups/Navigation_Mobile.png" id="img_nav_mobil" width="400">
 
 ### Registrierung
 Jede Person kann sich registrieren, egal ob über die Web-Anwendung, Desktop-Anwendung oder Mobile-Anwendung.
 Für die Registration muss man einen noch nicht vergebenen Benutzernamen, eine noch nicht verwendete E-Mail und ein Passwort angeben.
 Das Passwort muss wiederholt werden um Schreibfehler vorzubeugen.
 #### Mockups Registrierung
-<img src="./images/Registration_Web.png" id="img_reg_web" width="340"> <img src="./images/Registration_Desktop.png" id="img_reg_desk" width="260"> <img src="./images/Registration_Mobile.png" id="img_reg_mobil" width="130">
+<img src="./images/Mockups/Registration_Web.png" id="img_reg_web" width="340"> <img src="./images/Mockups/Registration_Desktop.png" id="img_reg_desk" width="260"> <img src="./images/Mockups/Registration_Mobile.png" id="img_reg_mobil" width="130">
 
 ### Anmeldung
 Jede Person die sich erfolgreich registriert hat, kann sich anmelden.
 Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort getätigt werden.
 #### Mockups  Anmeldung
-<img src="./images/Login_Web.png" id="img_login_web" width="300"> <img src="./images/Login_Desktop.png" id="img_login_desk" width="350"> <img src="./images/Login_Mobile.png" id="img_login_mobil" width="110">
+<img src="./images/Mockups/Login_Web.png" id="img_login_web" width="300"> <img src="./images/Mockups/Login_Desktop.png" id="img_login_desk" width="350"> <img src="./images/Mockups/Login_Mobile.png" id="img_login_mobil" width="110">
 
 #### User-Story: Registrierung und Anmeldung
 In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem
@@ -48,8 +48,8 @@ Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort ang
 <img src="./images/Registrierung und Anmeldung - Usecase.png" width="1000">
 
 #### Aktivitätsdiagramme Registrierung und Anmeldung
-<img src="./images/Aktivitätsdiagramme/AktivitätsDiaReg.png" width="400">
-<img src="./images/Aktivitätsdiagramme/AktivitätsDiaAnm.png" width="400">
+<img src="./images/Aktivitätsdiagramme/anmeldung.png" width="400">
+<img src="./images/Aktivitätsdiagramme/registrierung.png" width="400">
 
 ### Spielebibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
@@ -57,7 +57,7 @@ Diese können dann aus der Spielebibliothek gestartet werden.
 Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Spiel wird eine Beschreibung,
 eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen und somit auch besitzen müssen.
 #### Mockups Spielebibliothek
-<img src="./images/Library_Web2.png" id="img_library_web" width="360"> <img src="./images/Library_Desktop.png" id="img_library_desk" width="400">
+<img src="./images/Mockups/Library_Web2.png" id="img_library_web" width="360"> <img src="./images/Mockups/Library_Desktop.png" id="img_library_desk" width="400">
 
 #### User-Stories
 
@@ -76,13 +76,13 @@ eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen
 <br>
 
 #### Aktivitätsdiagramm Spiel anzeigen
-<img src="./images/Aktivitätsdiagramme/AktivitätsDiaSpiel.png" width="400">
+<img src="./images/Aktivitätsdiagramme/spielanschauen.png" width="400">
 
 ### Bewertungsfunktion
 Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt. Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt. Allerdings kann jedes Spiel nur einmal pro Benutzer bewertet werden. Jeder Benutzer kann zu seiner Bewertung von einem bis zu fünf Sternen einen kleinen Text verfassen, indem er seine Meinung zum entsprechenden Spiel schreibt. Andere Benutzer sehen bei jedem Spiel, die Bewertungen jener Benutzer, die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch oder runter ebenfalls bewerten.  Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach unten negativ.
 
 #### Mockups Bewertungsfunktion
-<img src="./images/Review_Web.png" id="img_review_web" width="300"> <img src="./images/Review_Desktop.png" id="img_review_desk" width="336"> <img src="./images/Review_Mobile.png" id="img_review_mobil" width="230">
+<img src="./images/Mockups/Review_Web.png" id="img_review_web" width="300"> <img src="./images/Mockups/Review_Desktop.png" id="img_review_desk" width="336"> <img src="./images/Mockups/Review_Mobile.png" id="img_review_mobil" width="230">
 
 #### User-Stories
 
@@ -96,7 +96,12 @@ Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezei
 
 #### Use-Case-Diagramm
 <br>
-<img src="./images/UseCase_Bewertungsfunktion.png" width="1000">
+<img src="./images/UseCase/UseCase_Bewertungsfunktion.png" width="1000">
+<br>
+
+#### Aktivitätsdiagramme
+<br>
+<img src="./images/Aktivitätsdiagramme/Activity_Diagramm_Bewertungsfunktion.png" width="1000">
 <br>
 
 ### Gruppen
@@ -151,7 +156,6 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 <br>
 
 #### Aktivitätsdiagramme
-
 <img src="./images/Aktivitätsdiagramme/akt_grp_admin.png" width="400"><img src="./images/Aktivitätsdiagramme/akt_grp_einladung.png" width="217"><img src="./images/Aktivitätsdiagramme/akt_grp_erstellen.png" width="231">
 
 ### Chaträume
@@ -183,6 +187,11 @@ Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeite
 <img src="./images/UseCase/Pflichtenheft_Chaträume_Use-Case-Diagramm.png" width="1000">
 <br>
 
+#### Aktivitätsdiagramm
+<br>
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm_Chaträume.png" width="1000">
+<br>
+
 ### Freundesliste
 Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und von dem jeweiligen Gruppenadmin gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.
 
@@ -205,6 +214,13 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 #### Use-Case-Diagramm
 <br>
 <img src="./images/UseCase/usecase_freundesliste.png" width="1000">
+<br>
+
+#### Aktivitätsdiagramm
+<br>
+<img src="./images/Aktivitätsdiagramme/freundesliste/FreundeslisteAkt1.png" width="1000">
+<br>
+<img src="./images/Aktivitätsdiagramme/freundesliste/FreundeslisteAkt2.png" width="1000">
 <br>
 
 ### Terminplaner
@@ -328,6 +344,17 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 
 #### Systemarchitekturdiagramm
 <img src="./images/architektur.png" id="img_sysarch" width="600">
+
+#### Analyseklassendiagramm
+<img src="./images/Klassendiagramm_PowerDesigner.png" id="img_classanalysis" width="600">
+
+### Aktivitätsdiagramm aller Use Cases
+
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm alle Use cases.png" width="1200">
+
+
+#### Routing
+[Generated API Reference](https://pr0jectzer0.ml/docs/)
 
 ### Optionale Features
 * Forum
