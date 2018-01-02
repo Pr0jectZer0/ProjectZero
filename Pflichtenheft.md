@@ -305,7 +305,7 @@ Zur besseren Übersicht der Notiz werden die Beiträge eines Mitgliedes in einer
 
 
 #### Desktop-Client für Windows
-**Desktopanwendung geschrieben in C#**
+**Desktopanwendung geschrieben in Java, GUI-Gestaltung mit JavaFX mit Hilfe von Scenebuilder**
 
 ### Backend
 
