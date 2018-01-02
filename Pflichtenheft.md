@@ -230,11 +230,11 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und auch wieder zu bearbeiten. Das bearbeiten geschieht durch drücken des Sclüssel Symbols neben dem Termin. Diese Termine können für den Benutzer selber sein oder auch für eine ganze Gruppe in der Anwendung. Wenn der Benutzer sich dafür entscheidet ein Termin für eine Gruppe zu planen, können andere für den Termin abstimmen und somit zeigen, dass sie an  dem Tag Zeit haben oder für den Termin absagen. Außerdem wird ein Gruppenmitglied zeitnah benachrichtigt, wenn eine Veranstaltung ansteht. Zur Übersicht werden die Termine in einem Kalender dargestellt, indem man auch an einem bestimmten Tag ein Termin eintragen kann. Neben dem ausgewählten Datum wird angezeigt welche Termine für dieses Datum anstehen. Tage an denen es Termine gibt, werden markiert. Beim hinzufügen, kann man den Terminnamen, die Terminbeschreibung und die Beschränkungen festlegen. Der Termin ersteller kann Leute zuweisen, welche diesen Termin sehen und eventuell auch bei dem Termin beteiligt sind. Die Teilnehmer werden in einer Liste angzeigt und können dort auch hinzugefügt werden. Dann werden sie in der Liste als hinzugefügt markiert und können auch wieder aus dem Termin entfernt werden, wenn nötig.
 
 #### Mockups Webansicht
-<img src="./images/Terminplaner Web.png" id="img_cal_web" width="450"><img src="./images/Terminplaner hinzufügen Web.png" id="img_cal_add_web" width="450">
+<img src="./images/Mockups/Terminplaner Web.png" id="img_cal_web" width="450"><img src="./images/Mockups/Terminplaner hinzufügen Web.png" id="img_cal_add_web" width="450">
 #### Mockups Desktopansicht
-<img src="./images/Terminplaner Desktop.png" id="img_cal_desk" width="550"><img src="./images/Terminplaner hinzufügen Desktop.png" id="img_cal_add_desk" width="330">
+<img src="./images/Mockups/Terminplaner Desktop.png" id="img_cal_desk" width="550"><img src="./images/Mockups/Terminplaner hinzufügen Desktop.png" id="img_cal_add_desk" width="330">
 #### Mockups Mobilansicht
-<img src="./images/Terminplaner Mobil.png" id="img_cal_mobil" width="550"><img src="./images/Terminplaner hinzufügen Mobil.png" id="img_cal_add_mobil" width="330">
+<img src="./images/Mockups/Terminplaner Mobil.png" id="img_cal_mobil" width="550"><img src="./images/Mockups/Terminplaner hinzufügen Mobil.png" id="img_cal_add_mobil" width="330">
 
 #### User-Stories
 
@@ -348,13 +348,18 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 #### Analyseklassendiagramm
 <img src="./images/Klassendiagramm_PowerDesigner.png" id="img_classanalysis" width="600">
 
+#### Routing
+[Generated API Reference](https://pr0jectzer0.ml/docs/)
+
 ### Aktivitätsdiagramm aller Use Cases
 
 <img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm alle Use cases.png" width="1200">
-
-
-#### Routing
-[Generated API Reference](https://pr0jectzer0.ml/docs/)
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Chatraumaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Freundeslisteaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Gruppenaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Notizaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Spielebibliothekaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Terminplaneraktivität.png" width="600">
 
 ### Optionale Features
 * Forum
