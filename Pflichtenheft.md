@@ -309,7 +309,7 @@ Zur besseren Übersicht der Notiz werden die Beiträge eines Mitgliedes in einer
 
 ### Backend
 
-#### Server:
+#### Server
 Ein Webserver wird für die Backend-Applikation benötigt.
 Der Server benötigt mindestens diese Anforderungen, da Laravel als Backend für das Projekt benutzt wird.
 Laravel ist ein PHP-Framework, welches als eine RESTful-API-Lösung benutzt wird, um die Client Anfragen zu verarbeiten und mit der Datenbank kommuniziert.
@@ -333,7 +333,7 @@ https://laravel.com/
 * Node
 * Git
 
-#### Datenbank:
+#### Datenbank
 Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations verwendet werden.
 
 >Migrations are like version control for your database, allowing your team to easily modify and share the application's database schema. Migrations are
@@ -341,6 +341,34 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 >add a column to their local database schema, you've faced the problem that database migrations solve.
 
 [Quelle](https://laravel.com/docs/5.5/migrations)
+
+##### ER-Diagramm
+
+<img src="./images/Datenbank/ProjectZero_Model_Overview.png" id="db_overview" width="600">
+
+##### Focus: Freunde
+<img src="./images/Datenbank/ProjectZero_Model_Freunde.png" id="db_friends" width="600">
+
+##### Focus: Spiele
+<img src="./images/Datenbank/ProjectZero_Model_Spiele.png" id="db_games" width="600">
+
+##### Focus: Notizen
+<img src="./images/Datenbank/ProjectZero_Model_Notizen.png" id="db_notes" width="600">
+
+##### Focus: Termine
+<img src="./images/Datenbank/ProjectZero_Model_Termine.png" id="db_appointments" width="600">
+
+##### Focus: Privatchat
+<img src="./images/Datenbank/ProjectZero_Model_Privatchat.png" id="db_privatchat" width="600">
+
+##### Focus: Offener Chat
+<img src="./images/Datenbank/ProjectZero_Model_OffenerChat.png" id="db_openchat" width="600">
+
+##### Focus: Gruppenchat
+<img src="./images/Datenbank/ProjectZero_Model_Gruppenchat.png" id="db_groupchat" width="600">
+
+##### Focus: Gruppenforum
+<img src="./images/Datenbank/ProjectZero_Model_Gruppenforum.png" id="db_groupboard" width="600">
 
 #### Systemarchitekturdiagramm
 <img src="./images/architektur.png" id="img_sysarch" width="600">
