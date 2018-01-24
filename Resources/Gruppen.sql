@@ -1,0 +1,28 @@
+INSERT INTO `ProjectZero`.`Gruppe` (`id`, `name`, `beschreibung`, `offen`) VALUES ('1', 'Project Zero', 'Die Super-Informatiker', '1');
+INSERT INTO `ProjectZero`.`Gruppe` (`id`, `name`, `beschreibung`, `offen`) VALUES ('2', 'Trolls United', 'Memes bis der Arzt kommt', '1');
+INSERT INTO `ProjectZero`.`Gruppe` (`id`, `name`, `beschreibung`, `offen`) VALUES ('3', 'Kettenbriefunterbrecher', 'Für die ganz harten', '0');
+INSERT INTO `ProjectZero`.`Gruppe` (`id`, `name`, `beschreibung`, `offen`) VALUES ('4', 'Illuminati e.V.', 'Super geheim', '0');
+
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('1', '2', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('1', '3', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('2', '4', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('2', '1', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('2', '3', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('3', '1', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('4', '4', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('5', '1', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('5', '2', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('6', '1', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('6', '2', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('6', '3', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('6', '4', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('7', '4', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('7', '3', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('8', '2', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('9', '1', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('10', '3', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('11', '2', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('11', '4', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('12', '4', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('13', '1', NULL);
+INSERT INTO `ProjectZero`.`Gruppe_Benutzer` (`benutzer_id`, `gruppe_id`, `rolle`) VALUES ('14', '2', NULL);
